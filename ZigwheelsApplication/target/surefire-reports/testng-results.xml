@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="69347" started-at="2021-04-16T04:17:27Z" finished-at="2021-04-16T04:18:37Z">
+    <groups>
+      <group name="Regression Test">
+        <method signature="BikeDetailsTest.verifyHondaPage()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="verifyHondaPage" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="UsedCarsTest.verifyChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@4d49af10]" name="verifyChennai" class="com.bikes.testCases.UsedCarsTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="BikeDetailsTest.clickUpComingBikes()[pri:1, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="clickUpComingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="invokedriver" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.selectHondaBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="selectHondaBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.clickViewMore()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="clickViewMore" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="BikeDetailsTest.displayUpcomingBikes()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="displayUpcomingBikes" class="com.bikes.testCases.BikeDetailsTest"/>
+        <method signature="LoginTest.clickLogin2()[pri:0, instance:com.bikes.testCases.LoginTest@429bd883]" name="clickLogin2" class="com.bikes.testCases.LoginTest"/>
+        <method signature="UsedCarsTest.selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@4d49af10]" name="selectChennai" class="com.bikes.testCases.UsedCarsTest"/>
+        <method signature="UsedCarsTest.getPopularModels()[pri:0, instance:com.bikes.testCases.UsedCarsTest@4d49af10]" name="getPopularModels" class="com.bikes.testCases.UsedCarsTest"/>
+      </group> <!-- Smoke Test -->
+      <group name="Regression">
+        <method signature="LoginTest.clickLogin1()[pri:1, instance:com.bikes.testCases.LoginTest@429bd883]" name="clickLogin1" class="com.bikes.testCases.LoginTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Surefire test" duration-ms="69347" started-at="2021-04-16T04:17:27Z" finished-at="2021-04-16T04:18:37Z">
+      <class name="com.bikes.testCases.BikeDetailsTest">
+        <test-method status="PASS" signature="invokedriver()[pri:0, instance:com.bikes.testCases.BikeDetailsTest@345965f2]" name="invokedriver" duration-ms="17358" started-at="2021-04-16T04:17:27Z" finished-at="2021-04-16T04:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokedriver -->
+      </class> <!-- com.bikes.testCases.BikeDetailsTest -->
+      <class name="com.bikes.testCases.UsedCarsTest">
+        <test-method status="PASS" signature="selectChennai()[pri:0, instance:com.bikes.testCases.UsedCarsTest@4d49af10]" name="selectChennai" duration-ms="17741" started-at="2021-04-16T04:18:19Z" finished-at="2021-04-16T04:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectChennai -->
+      </class> <!-- com.bikes.testCases.UsedCarsTest -->
+      <class name="com.bikes.testCases.LoginTest">
+        <test-method status="PASS" signature="clickLogin2()[pri:0, instance:com.bikes.testCases.LoginTest@429bd883]" name="clickLogin2" duration-ms="34217" started-at="2021-04-16T04:17:45Z" finished-at="2021-04-16T04:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin2 -->
+      </class> <!-- com.bikes.testCases.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
